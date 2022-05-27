@@ -7,7 +7,7 @@ var timerList = []
 var refList = []
 
 export const currentSceneNumber = 0;
-// ee01_ls_d_tr
+// ee01_ls_a_tr
 
 
 export const Switch = props => {
@@ -123,9 +123,8 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
     sharePrePath = './'
 } else {
     // production code
-    sharePrePath = './'
-
-    // sharePrePath = './ee01_ls_' + letterTurnList[currentSceneNumber] + '_tr/'
+    // sharePrePath = './'
+    sharePrePath = './ee01_ls_' + letterTurnList[currentSceneNumber] + '_tr/'
 }
 
 export const prePathUrl = () => sharePrePath;
