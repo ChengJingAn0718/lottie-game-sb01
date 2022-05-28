@@ -139,7 +139,7 @@ export default React.forwardRef(function LetterExplain({ nextFunc, audioList, _g
                         loop
                         speed={0.0}
                         keepLastFrame={true}
-                        src={prePathUrl() + 'lottiefiles/main/scale/jeep_with_character_wheels.json'}
+                        src={prePathUrl() + 'lottiefiles/main/scale/jeepwithcharacterwheels.json'}
                         style={{
                             position: 'absolute',
                             width: '35%',

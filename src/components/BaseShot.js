@@ -106,7 +106,7 @@ const animationColorList = [
 
 let isGameLoaded = false;
 var isGameStarted = false;
-// console.log = function () { }
+console.log = function () { }
 
 export default function BaseShot() {
 

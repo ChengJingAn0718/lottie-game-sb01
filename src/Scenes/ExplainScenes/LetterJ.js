@@ -108,8 +108,6 @@ export default React.forwardRef(function LetterExplain({ nextFunc, audioList, _g
                     >
                     </Player>
                 </BaseDiv>
-
-
                 <ShadowComponent
                     posInfo={{
                         w: 0.08,
