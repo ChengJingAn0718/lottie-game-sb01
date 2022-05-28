@@ -6,7 +6,7 @@ var innerIntervalList = []
 var timerList = []
 var refList = []
 
-export const currentSceneNumber = 23;
+export const currentSceneNumber = 24;
 // ee01_ls_z_tr
 
 
