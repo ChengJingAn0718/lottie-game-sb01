@@ -207,6 +207,8 @@ export default function Scene({ nextFunc, _geo, startTransition, audioList, curr
         //     clickLowerCase();
         // }, 1000);
 
+        
+
 
         return () => {
             currentImgNumOriginal = 0;
@@ -1792,7 +1794,7 @@ export default function Scene({ nextFunc, _geo, startTransition, audioList, curr
                             {
                                 !textInfoList[letterNum][value].isLast
                                     ? <span>
-                                        <div style={{ color: 'red', display: 'inline-block' }}>{textInfoList[letterNum][value].text[0]}
+                                        <div style={{ color: 'red', display: 'inline' }}>{textInfoList[letterNum][value].text[0]}
                                         </div>
                                         <span style={{ color: 'black' }}>{textInfoList[letterNum][value].text.replace('_', ' ').slice(1)}</span>
                                     </span>

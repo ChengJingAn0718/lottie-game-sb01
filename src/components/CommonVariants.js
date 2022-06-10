@@ -2825,7 +2825,7 @@ const showingLayoutList = [
     [
         {
             wPath: 'sb_01_pi_van',
-            s: 1.8, r: -0.4, b: 0.2
+            s: 1.8, r: -0.6, b: 0.2
         },
         {
             wPath: 'sb_01_pi_vase',
@@ -2840,11 +2840,11 @@ const showingLayoutList = [
     [
         {
             wPath: 'sb_01_pi_watermelon',
-            s: 1.4, r: -0.2, b: 0.1
+            s: 1.4, r: -0.4, b: 0.1
         },
         {
             wPath: 'sb_01_pi_woolen_ball',
-            s: 1.4, r: -0.2, b: 0.3
+            s: 1.4, r: -0.33, b: 0.3
         },
         {
             wPath: 'sb_01_pi_watch',
@@ -3013,14 +3013,14 @@ const textInfoList = [
     ],
 
     [
-        { text: 'Van', left: 0 },
+        { text: 'Van', left: 17 },
         { text: 'Vase', left: 0 },
         { text: 'Vegetables', left: 0 }
     ],
 
     [
-        { text: 'Watermelon', left: 0 },
-        { text: 'Wool', left: 0 },
+        { text: 'Watermelon', left: 28 },
+        { text: 'Wool', left: 15 },
         { text: 'Watch', left: 0 }
     ],
 
